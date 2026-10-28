@@ -6,7 +6,7 @@ metadata:
     app: guestbook
 spec:
   containers:
-    - name: my-guestbook
+    - name: guestbook
       image: guestbook:v0.1.0
       ports: 
         - containerPort: 3000 
